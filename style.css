@@ -1,0 +1,154 @@
+body {
+  margin: 50px 100px;
+  background-color: #f4fcff;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.radios {
+  margin-left: 25px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: unset;
+  padding: unset;
+}
+
+.active {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+  border: 1px black solid;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+form {
+  border: black 1px solid;
+  padding: 50px;
+  height: 1682;
+  width: 1189;
+  background-color: #fff;
+}
+
+.date {
+  margin: 15px 0px;
+}
+
+#birthdate {
+  margin-left: 25px;
+}
+
+.form-row {
+  margin-left: 15px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+#otherscontent {
+  width: 150px;
+  display: inline-block;
+  height: 25px;
+}
+
+button {
+  margin: 25px;
+}
+
+.form-control {
+  display: inline-block;
+  width: unset;
+  margin-left: 10px;
+}
+
+#orgname {
+  width: 500px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.upperfooter {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 4px red solid;
+}
+
+.upleft {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.upright {
+  position: relative;
+  top: 20px;
+}
+
+.fh6 {
+  position: relative;
+  left: 75px;
+  bottom: 20px;
+}
+
+.lowerfooter {
+  margin-top: 3px;
+  padding-top: 15px;
+  border-top: blue 2px solid;
+}
+
+.lowerfooter {
+  color: red;
+  text-align: center;
+}
+
+.appnameanddate {
+  margin-left: 25px;
+}
+
+#appEmail {
+  margin-left: 10px;
+}
+
+.mleft {
+  margin-left: 12px;
+}

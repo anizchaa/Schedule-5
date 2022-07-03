@@ -125,7 +125,7 @@
           />
         </div>
         <div class="form-group col-md-4">
-          <label for="ipWardno">Ward no.</label>
+          <label for="ipWard">Ward no.</label>
           <input
             type="number"
             class="form-control"
@@ -168,6 +168,7 @@
             type="checkbox"
             name="pCheck"
             id="pCheck"
+            onchange="update(this)"
           />
           <label class="form-check-label" for="pCheck"
             >Same as Permanent
@@ -246,8 +247,8 @@
           <input
             type="number"
             class="form-control"
-            id="itPostbox"
-            name="itPostbox"
+            id="itPostBox"
+            name="itPostBox"
           />
         </div>
       </div>
@@ -604,7 +605,7 @@
         </div>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="submit">Submit</button>
 
       <footer>
         <div class="upperfooter">
@@ -628,5 +629,6 @@
         </p>
       </footer>
     </form>
+    <script src="./script.js"></script>
   </body>
 </html>
